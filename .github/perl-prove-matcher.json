@@ -4,9 +4,7 @@
             "owner": "perl",
             "pattern": [
                 {
-                    "regexp": "/^#\\s*(.+) at (.+) line (\\d+)\\.$/",
-                    "file": 2,
-                    "line": 3,
+                    "regexp": "/^#\\s*(.+)/",
                     "message": 1
                 }
             ]
