@@ -8,7 +8,7 @@
                     "file": 2,
                 },
                 {
-                    "regexp": "^#\\s*(.+)$",
+                    "regexp": "^#\\s*(.+)",
                     "message": 1,
                     "loop": true
                 }
