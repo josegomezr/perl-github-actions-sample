@@ -4,13 +4,10 @@
             "owner": "perl",
             "pattern": [
                 {
-                    "regexp": "^#\\s*(.+) at (.+) line (.+)\\.$",
-                    "file": 2,
-                },
-                {
-                    "regexp": "^#\\s*(.+)",
+                    "regexp": "^#\\s*(.+) at (.+) line (\\d+)\\.$",
                     "message": 1,
-                    "loop": true
+                    "file": 2,
+                    "line": 3
                 }
             ]
         }
