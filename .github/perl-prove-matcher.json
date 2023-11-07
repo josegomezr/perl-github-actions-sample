@@ -5,9 +5,13 @@
             "pattern": [
                 {
                     "regexp": "^#\\s*(.+) at (.+) line (\\d+)\\.$",
-                    "message": 1,
                     "file": 2,
                     "line": 3
+                },
+                {
+                    "regexp": "^#\\s*(.+)$",
+                    "message": 1,
+                    "loop": true
                 }
             ]
         }
